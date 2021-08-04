@@ -28,7 +28,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="391a7811-5cae-4c3b-922d-e921523747d3" name="默认更改列表" comment="今天修改了说明书">
+    <list default="true" id="391a7811-5cae-4c3b-922d-e921523747d3" name="默认更改列表" comment="今天main">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gez/woodware/Unattended.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gez/woodware/Unattended.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -253,7 +253,7 @@
       <workItem from="1624582614484" duration="1175000" />
       <workItem from="1624598403182" duration="589000" />
       <workItem from="1628038673904" duration="4678000" />
-      <workItem from="1628061342435" duration="5830000" />
+      <workItem from="1628061342435" duration="5947000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交数据">
       <created>1628063779706</created>
@@ -283,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628068332812</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="今天main">
+      <created>1628069033291</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1628069033291</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,17 +324,18 @@
     <MESSAGE value="第一次提交数据" />
     <MESSAGE value="第二次提交数据" />
     <MESSAGE value="今天修改了说明书" />
-    <option name="LAST_COMMIT_MESSAGE" value="今天修改了说明书" />
+    <MESSAGE value="今天main" />
+    <option name="LAST_COMMIT_MESSAGE" value="今天main" />
   </component>
   <component name="WindowStateProjectService">
     <state x="455" y="87" key="CommitChangelistDialog2" timestamp="1628064040648">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="455" y="87" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1628064040648" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1628068959334">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1628069077225">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1628068959334" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1628069077225" />
     <state x="740" y="235" key="FileChooserDialogImpl" timestamp="1628062447847">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -388,10 +396,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="432" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1628068314805" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1628068367408">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1628069044745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1628068367408" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1628069044745" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1628040513662">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -404,6 +412,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="502" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1628040776245" />
+    <state x="623" y="225" key="search.everywhere.popup" timestamp="1628068974101">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1628068974101" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
