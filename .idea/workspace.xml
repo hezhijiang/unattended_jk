@@ -10,11 +10,18 @@
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="391a7811-5cae-4c3b-922d-e921523747d3" name="默认更改列表" comment="第一次提交数据">
+    <list default="true" id="391a7811-5cae-4c3b-922d-e921523747d3" name="默认更改列表" comment="第二次提交数据">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gez/woodware/controller/basics/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gez/woodware/controller/basics/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +239,7 @@
       <workItem from="1624582614484" duration="1175000" />
       <workItem from="1624598403182" duration="589000" />
       <workItem from="1628038673904" duration="4678000" />
-      <workItem from="1628061342435" duration="2524000" />
+      <workItem from="1628061342435" duration="2767000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交数据">
       <created>1628063779706</created>
@@ -241,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628063779706</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="第二次提交数据">
+      <created>1628063934951</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1628063934951</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +266,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -261,13 +287,14 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="第一次提交数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次提交数据" />
+    <MESSAGE value="第二次提交数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二次提交数据" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="455" y="87" key="CommitChangelistDialog2" timestamp="1628063766119">
+    <state x="455" y="87" key="CommitChangelistDialog2" timestamp="1628064040648">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="455" y="87" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1628063766119" />
+    <state x="455" y="87" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1628064040648" />
     <state x="740" y="235" key="FileChooserDialogImpl" timestamp="1628062447847">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -334,15 +361,6 @@
     <state x="502" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1628040776245" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/gez/woodware/controller/basics/UserController.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
         <watch expression="request" />
