@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC " -//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.gez.woodware.mapper.yund.ChakydymMapper" >
+
+	<select id="select" resultType="ChakydymData" parameterType="String">
+		select
+			waybill.ID id,
+			waybill.number number,
+			waybill.project project,
+			waybill.placeOfLoading placeofloading,
+			waybill.placeOfDischarge placeofdischarge,
+			waybill.volume volume,
+			waybill.freight freight,
+			waybill.headstock headstock,
+			waybill.carriage carriage,
+			waybill.source source,
+			waybill.cardNumber cardnumber,
+			waybill.carNumber carnumber,
+			waybill.Cardholder cardholder,
+			WaybillStatus1.Mingc state,
+			waybill.remarks remarks,
+			date_format(waybill.addTime,'%Y-%m-%d %H:%i') addtime
+		from
+			waybill, 
+			WaybillStatus as WaybillStatus1 
+		<where>
+			waybill.state=WaybillStatus1.Bianh 
+			 and  
+			waybill.ID=#{value} 
+		</where>
+	</select>
+	 
+ 
+</mapper>

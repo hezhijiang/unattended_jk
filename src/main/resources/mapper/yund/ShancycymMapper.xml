@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC " -//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.gez.woodware.mapper.yund.ShancycymMapper" >
+
+	<select id="select" resultType="ShancycymData" parameterType="String">
+		select
+			abnormal.ID id,
+			abnormal.tyep tyep,
+			abnormal.cardNumber cardnumber,
+			abnormal.Cardholder cardholder,
+			abnormal.carNumber carnumber,
+			abnormal.details details,
+			date_format(abnormal.addTime,'%Y-%m-%d %H:%i') addtime
+		from
+			abnormal 
+		<where>
+			abnormal.ID=#{value} 
+		</where>
+	</select>
+	 
+	<delete id="delete" parameterType="HashMap">
+		 delete from abnormal 	 
+		    <where>
+	  			id=#{value} 
+		    </where>
+	</delete>
+	 
+ 
+</mapper>

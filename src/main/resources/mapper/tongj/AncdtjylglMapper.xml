@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.gez.woodware.mapper.tongj.AncdtjylglMapper" >
+
+	<select id="select" resultType="AncdtjylglData" parameterType="HashMap"> 
+	    select
+       		 Ancdtjyl.ID id,
+       		 Ancdtjyl.Ched ched,
+       		 Ancdtjyl.Yunl yunl
+       		  from 
+       		 Ancdtjyl
+		<include refid="Where"/>								
+		<include refid="OrderBy"/>	 							
+		limit #{param.startNumber},#{param.pageSize}								
+	</select>									
+
+
+	<select id="count" resultType="int" parameterType="HashMap">									
+       		select 
+       		 count(Ancdtjyl.ID)
+       		  from 
+       		 Ancdtjyl
+
+		<include refid="Where"/>								
+	</select>									
+
+	<sql id="Where">									
+		<where>								
+			<if test="param != null and param.searchKey != null and param.searchKey != ''">							
+			    (						
+				  Ancdtjyl.Ched like '%${param.searchKey}%'
+				  or Ancdtjyl.Yunl like '%${param.searchKey}%'
+			    )						
+			</if>							
+		</where>								
+	</sql>									
+										
+										
+	<sql id="OrderBy">									
+										
+		<if test="param != null and param.column != null and param.column != ''">								
+			<trim prefix="order by" suffixOverrides=",">							
+					${param.expr}					
+			</trim>							
+		</if>								
+	</sql>									
+										
+ 
+</mapper>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.gez.woodware.mapper.yund.YicglMapper" >
+
+	<select id="number" resultType="int" parameterType="HashMap">									
+	    select allTable.rownumber from (select t.* ,(@rownum :=@rownum + 1) AS rownumber from (								
+		  select
+       		 abnormal.ID
+       		  from 
+       		 abnormal
+		  <include refid="Where"/>								
+		  <include refid="OrderBy"/>								
+	    ) t,(SELECT @rownum := 0) d ) as allTable						
+	    where  allTable.ID =#{param.id}								
+	</select>									
+
+
+	<select id="select" resultType="YicglData" parameterType="HashMap"> 
+	    select
+       		 abnormal.ID id,
+       		 abnormal.tyep tyep,
+       		 abnormal.cardNumber cardNumber,
+       		 abnormal.Cardholder cardholder,
+       		 abnormal.carNumber carNumber,
+       		 abnormal.details details,
+       		 date_format(abnormal.addTime,'%Y-%m-%d %H:%i') addTime
+       		  from 
+       		 abnormal
+		<include refid="Where"/>								
+		<include refid="OrderBy"/>	 							
+		limit #{param.startNumber},#{param.pageSize}								
+	</select>									
+
+
+	<select id="count" resultType="int" parameterType="HashMap">									
+       		select 
+       		 count(abnormal.ID)
+       		  from 
+       		 abnormal
+
+		<include refid="Where"/>								
+	</select>									
+
+	<sql id="Where">									
+		<where>								
+			<if test="param != null and param.searchKey != null and param.searchKey != ''">							
+			    (						
+				  abnormal.tyep like '%${param.searchKey}%'
+				  or abnormal.cardNumber like '%${param.searchKey}%'
+				  or abnormal.Cardholder like '%${param.searchKey}%'
+				  or abnormal.carNumber like '%${param.searchKey}%'
+				  or abnormal.details like '%${param.searchKey}%'
+				  or date_format(abnormal.addTime,'%Y-%m-%d %H:%i') like '%${param.searchKey}%'
+			    )						
+			</if>							
+		</where>								
+	</sql>									
+										
+										
+	<sql id="OrderBy">									
+										
+		<if test="param != null and param.column != null and param.column != ''">								
+			<trim prefix="order by" suffixOverrides=",">							
+					${param.expr}					
+			</trim>							
+		</if>								
+	</sql>									
+										
+ 
+</mapper>

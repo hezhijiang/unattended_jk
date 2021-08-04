@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.gez.woodware.mapper.basics.WeChatUserMapper">
+
+    <sql id="userSelect">
+		select
+			u.ID id,
+			u.yonghzh,
+			u.yonghxm,
+			r.ID jiaosid,
+			r.jiaosmc,
+			d.ID bumid,
+			d.bummc
+		from
+			Yongh u,
+			Bum d,
+			Jiaos r
+		where
+			u.JiaosID = r.ID
+			and
+			u.BumID = d.ID
+	</sql>
+
+    <select id="getUserByOpenId" resultType="com.gez.woodware.entity.basics.User" parameterType="String">
+        <include refid="userSelect"/>
+        and u.ID = (select yonghid from weixyh where openid=#{openid} limit 1)
+    </select>
+
+
+
+
+
+
+	<select id="getUserByYonghzh" resultType="com.gez.woodware.entity.basics.User" parameterType="String">
+		<include refid="userSelect"/>
+		and u.yonghzh = #{value}
+	</select>
+
+	<delete id="delete_Weixyh_openid" parameterType="String">
+		delete from Weixyh  where openid =#{value}
+	</delete>
+
+
+    <select id="getAppid" resultType="com.gez.woodware.entity.basics.WxxcxzhData" parameterType="String">
+	 select system ,appid ,secert from Wxxcxzh where system=#{value} ORDER BY tianjsj desc limit 1
+	</select>
+
+	<select
+			id="getuserInfo"
+			parameterType="String"
+			resultType="com.gez.woodware.entity.basics.WxUserData">
+select * from Weixyh where yonghid = #{value} limit 1
+
+	</select>
+
+
+
+
+    <insert
+            id="insert_Weixyh"
+            parameterType="HashMap">
+ 		delete from Weixyh where openid =#{openId};
+
+	    insert into Weixyh(id,yonghid,openid,system,Tianjsj)
+	    value
+		(uuid(),#{yonghid},#{openId},#{systemName},now());
+
+		update yongh set yonghbz =#{openId} where id  = #{yonghid} and yonghbz='';
+	</insert>
+
+	<update
+			id="userInfo"
+			parameterType="HashMap">
+update Weixyh set nic =#{param.nic} ,toux =#{param.toux} where openid=#{param.openId}
+
+	</update>
+
+
+
+
+    <insert
+            id="insert_yongh"
+            parameterType="HashMap">
+	    insert into yongh(id,yonghzh,yonghmm,yonghbz,Yonghdlzhsj,Yonghdlcs,jiaosid,bumid)
+		select #{yonghid},#{shoujh},#{yonghmm},#{openId},SYSDATE(),1,id,'01' from jiaos where jiaosmc ='仓库领导' ;
+
+
+
+	</insert>
+
+
+
+
+
+
+	<insert
+			id="insert_shoujyzm"
+			parameterType="HashMap">
+	   	insert into shoujyzm values(uuid(),#{shoujh},#{yanzm},now(),0,null)
+	</insert>
+
+
+	<select
+			id="getyanzm"
+			parameterType="String"
+			resultType="int">
+
+	select count(*) from shoujyzm where shoujh=#{shoujh} and shifsy = 0 and shiysj is null and to_days(Chanssj)=to_days(NOW()) and yanzm = #{VerificationCode};
+
+	</select>
+
+	<select
+			id="getTodayYanzm"
+			parameterType="String"
+			resultType="int">
+
+	select count(*) from shoujyzm where shoujh=#{value}  and to_days(Chanssj)=to_days(NOW());
+
+	</select>
+	<select id="getsjzt" resultType="java.lang.String"></select>
+
+	<insert
+			id="update_shoujyzm"
+			parameterType="String">
+	   	update shoujyzm set shifsy = 1 and shiysj = now() where shoujh=#{value} and shiysj is null
+	</insert>
+
+
+</mapper>

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="391a7811-5cae-4c3b-922d-e921523747d3" name="默认更改列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Us4ulkT5hTKJdVodNRDdZ91OEo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java\demo\swagger\src\main\java\com\gez\woodware\util" />
+      <recent name="D:\Java\demo\swagger\src\main\resources\mapper\basics" />
+      <recent name="D:\Java\demo\swagger\src\main\resources\mapper\mormk" />
+      <recent name="D:\Java\demo\swagger\src\main\resources\mapper\dingd" />
+      <recent name="D:\Java\demo\swagger\src\main\java\com\hezj\swagger\demo\controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\demo\swagger\src\main\resources\mapper\dingd" />
+      <recent name="D:\Java\demo\swagger\src\main\resources\mapper\basics" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Unattended">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="woodware [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="swagger" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hezj.swagger.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="swagger" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gez.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gez.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unattended" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="unattended_jk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gez.woodware.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gez.woodware.Unattended" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unattended" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gez.woodware.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gez.woodware.Unattended" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unattended" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="unattended_jk12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gez.woodware.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gez.woodware.Unattended" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Unattended" />
+        <item itemvalue="Spring Boot.Unattended" />
+        <item itemvalue="Spring Boot.Unattended" />
+        <item itemvalue="Maven.woodware [clean]" />
+        <item itemvalue="Spring Boot.Unattended" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="391a7811-5cae-4c3b-922d-e921523747d3" name="默认更改列表" comment="" />
+      <created>1576132194016</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576132194016</updated>
+      <workItem from="1576132195901" duration="3335000" />
+      <workItem from="1576135757618" duration="2383000" />
+      <workItem from="1576143415263" duration="4605000" />
+      <workItem from="1576199381932" duration="22387000" />
+      <workItem from="1576231529456" duration="237000" />
+      <workItem from="1576458950082" duration="1194000" />
+      <workItem from="1576474866755" duration="9903000" />
+      <workItem from="1576485446239" duration="113000" />
+      <workItem from="1576487271122" duration="1856000" />
+      <workItem from="1576552900052" duration="3820000" />
+      <workItem from="1576631580076" duration="2252000" />
+      <workItem from="1576643272485" duration="8119000" />
+      <workItem from="1576717469986" duration="4536000" />
+      <workItem from="1593679785988" duration="314000" />
+      <workItem from="1593739694735" duration="579000" />
+      <workItem from="1593744406764" duration="363000" />
+      <workItem from="1593744801659" duration="19429000" />
+      <workItem from="1624333647038" duration="1210000" />
+      <workItem from="1624335168179" duration="230000" />
+      <workItem from="1624410408197" duration="443000" />
+      <workItem from="1624417834091" duration="437000" />
+      <workItem from="1624518806539" duration="1163000" />
+      <workItem from="1624582614484" duration="1175000" />
+      <workItem from="1624598403182" duration="589000" />
+      <workItem from="1628038673904" duration="4678000" />
+      <workItem from="1628061342435" duration="2083000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="235" key="FileChooserDialogImpl" timestamp="1628062447847">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="235" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1628062447847" />
+    <state width="1697" height="489" key="GridCell.Tab.0.bottom" timestamp="1628060939768">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1697" height="248" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1628039464301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1697" height="248" key="GridCell.Tab.0.bottom.inPresentationMode/0.0.1920.1040@0.0.1920.1040" timestamp="1628039464301" />
+    <state width="1697" height="489" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1628060939768" />
+    <state width="1697" height="489" key="GridCell.Tab.0.center" timestamp="1628060939767">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1697" height="248" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1628039464301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1697" height="248" key="GridCell.Tab.0.center.inPresentationMode/0.0.1920.1040@0.0.1920.1040" timestamp="1628039464301" />
+    <state width="1697" height="489" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1628060939767" />
+    <state width="1697" height="489" key="GridCell.Tab.0.left" timestamp="1628060939766">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1697" height="248" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1628039464301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1697" height="248" key="GridCell.Tab.0.left.inPresentationMode/0.0.1920.1040@0.0.1920.1040" timestamp="1628039464301" />
+    <state width="1697" height="489" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1628060939766" />
+    <state width="1697" height="489" key="GridCell.Tab.0.right" timestamp="1628060939767">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1697" height="248" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1628039464301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1697" height="248" key="GridCell.Tab.0.right.inPresentationMode/0.0.1920.1040@0.0.1920.1040" timestamp="1628039464301" />
+    <state width="1697" height="489" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1628060939767" />
+    <state width="1697" height="489" key="GridCell.Tab.1.bottom" timestamp="1628060939770">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1697" height="489" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1628060939770" />
+    <state width="1697" height="489" key="GridCell.Tab.1.center" timestamp="1628060939769">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1697" height="489" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1628060939769" />
+    <state width="1697" height="489" key="GridCell.Tab.1.left" timestamp="1628060939768">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1697" height="489" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1628060939768" />
+    <state width="1697" height="489" key="GridCell.Tab.1.right" timestamp="1628060939769">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1697" height="489" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1628060939769" />
+    <state x="461" y="164" width="1284" height="711" key="SettingsEditor" timestamp="1628063449287">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" width="1284" height="711" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1628063449287" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1628040513662">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1628040513662" />
+    <state x="502" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1628040776245">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="502" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1628040776245" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gez/woodware/controller/basics/UserController.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="request" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

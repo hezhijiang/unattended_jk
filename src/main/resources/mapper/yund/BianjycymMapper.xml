@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC " -//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.gez.woodware.mapper.yund.BianjycymMapper" >
+
+	<select id="select" resultType="BianjycymData" parameterType="String">
+				      
+				  select  
+				 abnormal.ID id, 
+				 abnormal.tyep tyep, 
+				 abnormal.cardNumber cardNumber, 
+				 abnormal.Cardholder cardholder, 
+				 abnormal.carNumber carNumber, 
+				 abnormal.details details, 
+				 case when abnormal.addTime is NULL then '' else date_format(abnormal.addTime,'%Y-%m-%d %H:%i:%s') end addTime 
+				  from abnormal 
+		<where>
+				abnormal.ID = #{value} 
+		</where>
+	</select>
+	 
+
+	<update id="update" parameterType="HashMap">
+		  update abnormal
+		<set>
+				tyep = #{param.tyep},
+				cardNumber = #{param.cardNumber},
+				cardholder = #{param.cardholder},
+				carNumber = #{param.carNumber},
+				details = #{param.details},
+				addTime = #{param.addTime}		
+		</set>
+		<where>
+	  			id = #{param.id} 
+		</where>
+	</update>
+	 
+ 
+</mapper>

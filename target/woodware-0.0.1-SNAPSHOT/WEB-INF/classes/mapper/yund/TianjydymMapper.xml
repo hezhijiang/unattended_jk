@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC " -//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.gez.woodware.mapper.yund.TianjydymMapper" >
+
+	<insert id="insert" parameterType="HashMap">
+		insert into waybill(ID,number,project,placeOfLoading,placeOfDischarge,volume,freight,headstock,carriage,source,cardNumber,carNumber,state,remarks) 	 
+		values(
+	 	    #{param.id},
+	 	    #{param.number},
+	 	    #{param.project},
+	 	    #{param.placeOfLoading},
+	 	    #{param.placeOfDischarge},
+	 	    #{param.volume},
+	 	    #{param.freight},
+	 	    #{param.headstock},
+	 	    #{param.carriage},
+	 	    #{param.source},
+	 	    #{param.cardNumber},
+	 	    #{param.carNumber},
+	 	    #{param.state},
+	 	    #{param.remarks}
+		)
+	</insert>
+	 
+ 
+</mapper>

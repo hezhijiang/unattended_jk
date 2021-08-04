@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.gez.woodware.mapper.jic.SijclglMapper" >
+
+	<select id="number" resultType="int" parameterType="HashMap">									
+	    select allTable.rownumber from (select t.* ,(@rownum :=@rownum + 1) AS rownumber from (								
+		  select
+       		 DriversAndVehicles.ID
+       		  from 
+       		 DriversAndVehicles,
+       		 DriverVehicleStatus as DriverVehicleStatus1
+		  <include refid="Where"/>								
+		  <include refid="OrderBy"/>								
+	    ) t,(SELECT @rownum := 0) d ) as allTable						
+	    where  allTable.ID =#{param.id}								
+	</select>									
+
+
+	<select id="select" resultType="SijclglData" parameterType="HashMap"> 
+	    select
+       		 DriversAndVehicles.ID id,
+       		 DriversAndVehicles.driverName driverName,
+       		 DriversAndVehicles.driverPhoneNumber driverPhoneNumber,
+       		 DriversAndVehicles.carNumber carNumber,
+       		 DriversAndVehicles.model model,
+       		 DriversAndVehicles.volume volume,
+       		 DriversAndVehicles.cardNumber cardNumber,
+       		 DriversAndVehicles.fleet fleet,
+       		 DriversAndVehicles.carrier carrier,
+       		 DriversAndVehicles.SynchronizationNumber synchronizationNumber,
+       		 DriversAndVehicles.addTime addTime,
+       		 DriverVehicleStatus1.Mingc mingc
+       		  from 
+       		 DriversAndVehicles,
+       		 DriverVehicleStatus as DriverVehicleStatus1
+		<include refid="Where"/>								
+		<include refid="OrderBy"/>	 							
+		limit #{param.startNumber},#{param.pageSize}								
+	</select>									
+
+
+	<select id="count" resultType="int" parameterType="HashMap">									
+       		select 
+       		 count(DriversAndVehicles.ID)
+       		  from 
+       		 DriversAndVehicles,
+       		 DriverVehicleStatus as DriverVehicleStatus1
+
+		<include refid="Where"/>								
+	</select>									
+
+	<sql id="Where">									
+		<where>								
+       		 DriversAndVehicles.stage=DriverVehicleStatus1.Bianh
+			<if test="param != null and param.searchKey != null and param.searchKey != ''">							
+			    and
+			    (						
+				  DriversAndVehicles.driverName like '%${param.searchKey}%'
+				  or DriversAndVehicles.driverPhoneNumber like '%${param.searchKey}%'
+				  or DriversAndVehicles.carNumber like '%${param.searchKey}%'
+				  or DriversAndVehicles.cardNumber like '%${param.searchKey}%'
+				  or DriversAndVehicles.fleet like '%${param.searchKey}%'
+				  or DriversAndVehicles.carrier like '%${param.searchKey}%'
+				  or DriverVehicleStatus1.Mingc like '%${param.searchKey}%'
+			    )						
+			</if>							
+		</where>								
+	</sql>									
+										
+										
+	<sql id="OrderBy">									
+										
+		<if test="param != null and param.column != null and param.column != ''">								
+			<trim prefix="order by" suffixOverrides=",">							
+					${param.expr}					
+			</trim>							
+		</if>								
+	</sql>									
+										
+ 
+</mapper>

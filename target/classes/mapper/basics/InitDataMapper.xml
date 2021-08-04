@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.gez.woodware.mapper.basics.InitDataMapper">
+
+	<select id="getCommonCodingList" resultType="com.gez.woodware.entity.basics.CodeValue" parameterType="HashMap">
+
+		select
+			Bianh code,
+			mingc value
+		from ${table}
+		where Qiy = 1
+
+
+	</select>
+
+
+
+	<select id="getDuolieCodingList" resultType="com.gez.woodware.entity.basics.CodeValueDuolie" parameterType="HashMap">
+		select *
+		from ${table}
+		where Qiy = 1
+
+	</select>
+
+
+
+
+
+
+	<select id="getCommonCountList" resultType="com.gez.woodware.entity.basics.CodeValue" parameterType="HashMap">
+
+		select ${field} value,count(${field}) code  from ${table} group by ${field} order by  count(${field}) desc
+
+	</select>
+
+
+	<select id="getUserAccountList" resultType="com.gez.woodware.entity.basics.CodeValue" >
+		select
+			ID code,
+			Yonghzh value
+		from Yongh
+	</select>
+
+	<select id="getUserNameList" resultType="com.gez.woodware.entity.basics.CodeValue" >
+		select
+			ID code,
+			Yonghxm value
+		from Yongh
+	</select>
+
+	<select id="getDepartmentNameList" resultType="com.gez.woodware.entity.basics.CodeValue" >
+		select
+			ID code,
+			Bummc value
+		from Bum
+	</select>
+
+	<select id="getPartNameList" resultType="com.gez.woodware.entity.basics.CodeValue" >
+		select
+			ID code,
+			Jiaosmc value
+		from Jiaos
+	</select>
+
+
+
+</mapper>

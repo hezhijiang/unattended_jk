@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC " -//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.gez.woodware.mapper.yund.TianjycymMapper" >
+
+	<insert id="insert" parameterType="HashMap">
+		insert into abnormal(ID,tyep,cardNumber,Cardholder,carNumber,details,addTime) 	 
+		values(
+	 	    #{param.id},
+	 	    #{param.tyep},
+	 	    #{param.cardNumber},
+	 	    #{param.cardholder},
+	 	    #{param.carNumber},
+	 	    #{param.details},
+	 	    #{param.addTime}
+		)
+	</insert>
+	 
+ 
+</mapper>

@@ -1,0 +1,54 @@
+# datasource
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver # JDBC连接Mysql6以上com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/unattended?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: hezj
+  aop:
+    proxy-target-class: true
+    auto: true
+
+#mybatis    
+mybatis:
+  # 映射文件的路径 ，支持 Ant 风格的通配符， 多个配置可以使用英文逗号隔开
+  mapper-locations: classpath:mapper/*.xml,classpath:mapper/**/*.xml
+  # 类型别名包画配置，只能指定具体的包，多个配置可以使用英文逗号隔开
+  type-aliases-package: com.gez.woodware.entity
+  # Mybatis SQL语句控制台打印
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+  #redis
+  redis:
+    database: 6  #Redis索引0~15，默认为0
+    host: 127.0.0.1
+    port: 6379
+    password:  #密码（默认为空）
+    lettuce: # 这里标明使用lettuce配置
+      pool:
+        max-active: 8   #连接池最大连接数（使用负值表示没有限制）
+        max-wait: -1ms  #连接池最大阻塞等待时间（使用负值表示没有限制）
+        max-idle: 5     #连接池中的最大空闲连接
+        min-idle: 0     #连接池中的最小空闲连接
+    timeout: 10000ms    #连接超时时间（毫秒）
+
+  #swagger
+  swagger:
+    title: 成果管理系统【系统名称】
+    description: 系统描述
+    version: 1.4.0.RELEASE
+    #    license: Apache License, Version 2.0
+    #    licenseUrl: https://www.apache.org/licenses/LICENSE-2.0.html
+    #    termsOfServiceUrl: https://github.com/dyc87112/spring-boot-starter-swagger
+    base-package: com.gez.woodware
+    base-path: /**
+    contact:
+      name: hezj
+      #      url: http://blog.didispace.com
+      email: 328953762@qq.com
+  #resources
+  resources:
+    path: C:\Users\h\Documents\Pottery Builder 2019\Woodware.v1.0.2\src\main\resources\files
+    resuri: http://localhost:8080/ 
+    localurl: http://localhost:8080/ 

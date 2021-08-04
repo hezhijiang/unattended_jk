@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC " -//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.gez.woodware.mapper.jic.BianjsjclymMapper" >
+
+	<select id="select" resultType="BianjsjclymData" parameterType="String">
+				      
+				  select  
+				 DriversAndVehicles.ID id, 
+				 DriversAndVehicles.driverName driverName, 
+				 DriversAndVehicles.driverPhoneNumber driverPhoneNumber, 
+				 DriversAndVehicles.carNumber carNumber, 
+				 DriversAndVehicles.model model, 
+				 DriversAndVehicles.volume volume, 
+				 DriversAndVehicles.cardNumber cardNumber, 
+				 DriversAndVehicles.fleet fleet, 
+				 DriversAndVehicles.carrier carrier, 
+				 DriversAndVehicles.IDCard idCard, 
+				 DriversAndVehicles.drivingLicense drivingLicense, 
+				 DriversAndVehicles.vehicleLicense vehicleLicense, 
+				 DriversAndVehicles.taxiLicense taxiLicense, 
+				 DriversAndVehicles.cardFace cardFace, 
+				 DriversAndVehicles.revisionTime revisionTime, 
+				 DriversAndVehicles.stage stage 
+				  from DriversAndVehicles 
+		<where>
+				DriversAndVehicles.ID = #{value} 
+				and 
+				DriversAndVehicles.IDCard = #{value} 
+		</where>
+	</select>
+	 
+
+	<update id="update" parameterType="HashMap">
+		  update DriversAndVehicles
+		<set>
+				driverName = #{param.driverName},
+				driverPhoneNumber = #{param.driverPhoneNumber},
+				carNumber = #{param.carNumber},
+				model = #{param.model},
+				volume = #{param.volume},
+				cardNumber = #{param.cardNumber},
+				fleet = #{param.fleet},
+				carrier = #{param.carrier},
+				iDCard = #{param.iDCard},
+				drivingLicense = #{param.drivingLicense},
+				vehicleLicense = #{param.vehicleLicense},
+				taxiLicense = #{param.taxiLicense},
+				cardFace = #{param.cardFace},
+				revisionTime = #{param.revisionTime},
+				stage = #{param.stage}		
+		</set>
+		<where>
+	  			id = #{param.id} 
+		</where>
+	</update>
+	 
+ 
+</mapper>
