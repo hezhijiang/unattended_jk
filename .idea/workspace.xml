@@ -29,7 +29,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="391a7811-5cae-4c3b-922d-e921523747d3" name="默认更改列表" comment="今天main">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gez/woodware/Unattended.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gez/woodware/Unattended.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,7 +253,7 @@
       <workItem from="1624582614484" duration="1175000" />
       <workItem from="1624598403182" duration="589000" />
       <workItem from="1628038673904" duration="4678000" />
-      <workItem from="1628061342435" duration="5947000" />
+      <workItem from="1628061342435" duration="5970000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交数据">
       <created>1628063779706</created>
@@ -290,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628069033291</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006">
+      <created>1628069089598</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1628069089598</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
