@@ -74,6 +74,7 @@ public class UserController {
     }
 
 
+
     @GetMapping("/notLoggedIn")
     @ApiOperation(value = "1.4 用户未登录", notes = "当前用户未登录")
     public RetResponse notLoggedIn() {
@@ -85,6 +86,7 @@ public class UserController {
     @ApiOperation(value = "1.5 用户登录", notes = "根据用户账号和密码进行登录")
     public RetResponse test() {
 
+        System.out.println("this is zj");
         redisTemplate.opsForValue().set("hezj", "12313241234");
         return new RetResponse(redisTemplate.opsForValue().get("hezj"));
 
