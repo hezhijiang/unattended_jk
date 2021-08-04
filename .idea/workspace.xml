@@ -9,6 +9,15 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select>
       <path>
@@ -19,244 +28,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="391a7811-5cae-4c3b-922d-e921523747d3" name="默认更改列表" comment="第二次提交数据">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gez/woodware/controller/basics/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gez/woodware/controller/basics/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT.war.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/Filter/XssAndSqlHttpServletRequestWrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/Filter/XssFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/Filter/XssStringJsonSerializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/Unattended.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/controller/basics/ResourcesController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/controller/basics/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/controller/basics/WeChatUserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/controller/jic/BianjsjclymController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/controller/jic/ChaksjclymController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/controller/jic/SijclglController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/controller/jic/TianjsjclymController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/controller/tongj/AncdtjylglController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/controller/yund/BianjycymController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/controller/yund/BianjydymController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/controller/yund/ChakydymController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/controller/yund/ShancycymController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/controller/yund/ShancydymController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/controller/yund/TianjycymController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/controller/yund/TianjydymController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/controller/yund/YicglController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/controller/yund/YundglController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/basics/CodeValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/basics/CodeValueDuolie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/basics/DecodeWxAppPhoneData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/basics/ListResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/basics/PageArgs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/basics/PageResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/basics/RedisParams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/basics/RetResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/basics/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/basics/UserParams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/basics/WeChatUserLoginParam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/basics/WechatMould.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/basics/WxUserData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/basics/WxxcxzhData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/basics/wxRegisterParam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/basics/wxRegisterPhoneParams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/basics/wxUserParams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/jic/BianjsjclymData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/jic/BianjsjclymParams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/jic/ChaksjclymData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/jic/SijclglData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/jic/TianjsjclymData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/jic/TianjsjclymParams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/tongj/AncdtjylglData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/yund/BianjycymData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/yund/BianjycymParams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/yund/BianjydymData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/yund/BianjydymParams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/yund/ChakydymData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/yund/ShancycymData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/yund/ShancydymData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/yund/TianjycymData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/yund/TianjycymParams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/yund/TianjydymData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/yund/TianjydymParams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/yund/YicglData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/entity/yund/YundglData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/intercept/MyWebMvcConfigurer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/intercept/UserIntercept.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/intercept/WebControllerAop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/mapper/basics/BaseMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/mapper/basics/InitDataMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/mapper/basics/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/mapper/basics/WeChatUserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/mapper/jic/BianjsjclymMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/mapper/jic/ChaksjclymMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/mapper/jic/SijclglMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/mapper/jic/TianjsjclymMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/mapper/tongj/AncdtjylglMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/mapper/yund/BianjycymMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/mapper/yund/BianjydymMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/mapper/yund/ChakydymMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/mapper/yund/ShancycymMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/mapper/yund/ShancydymMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/mapper/yund/TianjycymMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/mapper/yund/TianjydymMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/mapper/yund/YicglMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/mapper/yund/YundglMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/service/basics/BaseService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/service/basics/InitDataService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/service/basics/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/service/basics/WeChatUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/service/jic/BianjsjclymService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/service/jic/ChaksjclymService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/service/jic/SijclglService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/service/jic/TianjsjclymService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/service/tongj/AncdtjylglService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/service/yund/BianjycymService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/service/yund/BianjydymService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/service/yund/ChakydymService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/service/yund/ShancycymService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/service/yund/ShancydymService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/service/yund/TianjycymService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/service/yund/TianjydymService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/service/yund/YicglService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/service/yund/YundglService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/util/Base64Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/util/CalendarUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/util/DzHttpRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/util/DzPublicFinal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/util/DzShortMessageYP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/util/GlobalExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/util/HttpsUtil$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/util/HttpsUtil$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/util/HttpsUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/util/ParamsUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/util/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/util/RedisCacheAutoConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/util/RedisConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/util/ResourceUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/util/ResourcesApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/util/baidu/BaiduPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/util/baidu/RetRoutePlanning.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/util/baidu/RoutePlanning.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/util/baidu/Routes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/util/baidu/SpeechSynthesis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/util/baidu/Steps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/util/weix/DzWxPulic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/util/weix/SendWechatmsgToUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/util/wxxcxPay/CertHttpUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/util/wxxcxPay/PayMent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/util/wxxcxPay/PayMentUtil$SignType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/com/gez/woodware/util/wxxcxPay/PayMentUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/basics/BaseMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/basics/InitDataMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/basics/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/basics/WeChatUserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/jic/BianjsjclymMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/jic/ChaksjclymMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/jic/SijclglMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/jic/TianjsjclymMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/tongj/AncdtjylglMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/yund/BianjycymMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/yund/BianjydymMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/yund/ChakydymMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/yund/ShancycymMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/yund/ShancydymMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/yund/TianjycymMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/yund/TianjydymMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/yund/YicglMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/yund/YundglMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/HikariCP-3.4.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.9.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/byte-buddy-1.10.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/classmate-1.5.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/commons-codec-1.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/commons-io-2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/commons-lang-2.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/commons-lang3-3.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/commons-pool2-2.7.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/commons-text-1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/fastjson-1.2.62.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/guava-20.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-validator-6.0.18.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/httpclient-4.5.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/httpcore-4.4.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.10.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-core-2.10.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-databind-2.10.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-datatype-jdk8-2.10.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-datatype-jsr310-2.10.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-module-parameter-names-2.10.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/jakarta.annotation-api-1.3.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/jakarta.validation-api-2.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/jboss-logging-3.4.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/jdom2-2.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-1.7.29.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/lettuce-core-5.2.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-api-2.12.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-to-slf4j-2.12.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/logback-classic-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/lombok-1.18.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/mapstruct-1.2.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-3.4.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-spring-boot-autoconfigure-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-spring-boot-starter-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.18.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/netty-buffer-4.1.43.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/netty-codec-4.1.43.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/netty-common-4.1.43.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/netty-handler-4.1.43.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/netty-resolver-4.1.43.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/netty-transport-4.1.43.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/reactive-streams-1.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/reactor-core-3.3.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.21.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/snakeyaml-1.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aop-5.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/spring-beans-5.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-2.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-2.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-2.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-aop-2.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-data-redis-2.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-jdbc-2.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-json-2.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-logging-2.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-validation-2.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-web-2.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-5.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-support-5.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/spring-core-5.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/spring-data-commons-2.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/spring-data-keyvalue-2.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/spring-data-redis-2.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/spring-expression-5.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jcl-5.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/spring-oxm-5.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/spring-plugin-core-1.2.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/spring-plugin-metadata-1.2.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/spring-tx-5.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/spring-web-5.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/springfox-bean-validators-2.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/springfox-core-2.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/springfox-schema-2.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/springfox-spi-2.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/springfox-spring-web-2.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/springfox-swagger-common-2.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/springfox-swagger-ui-2.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/springfox-swagger2-2.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/swagger-annotations-1.5.20.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/swagger-models-1.5.20.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/swagger-spring-boot-starter-1.9.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/xercesImpl-2.9.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/woodware-0.0.1-SNAPSHOT/WEB-INF/lib/xml-apis-1.3.04.jar" beforeDir="false" />
+    <list default="true" id="391a7811-5cae-4c3b-922d-e921523747d3" name="默认更改列表" comment="今天修改了说明书">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gez/woodware/Unattended.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gez/woodware/Unattended.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -480,7 +253,7 @@
       <workItem from="1624582614484" duration="1175000" />
       <workItem from="1624598403182" duration="589000" />
       <workItem from="1628038673904" duration="4678000" />
-      <workItem from="1628061342435" duration="5022000" />
+      <workItem from="1628061342435" duration="5830000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交数据">
       <created>1628063779706</created>
@@ -503,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628064231921</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="今天修改了说明书">
+      <created>1628068332812</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1628068332812</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,17 +316,18 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="第一次提交数据" />
     <MESSAGE value="第二次提交数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="第二次提交数据" />
+    <MESSAGE value="今天修改了说明书" />
+    <option name="LAST_COMMIT_MESSAGE" value="今天修改了说明书" />
   </component>
   <component name="WindowStateProjectService">
     <state x="455" y="87" key="CommitChangelistDialog2" timestamp="1628064040648">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="455" y="87" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1628064040648" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1628064479921">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1628068959334">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1628064479921" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1628068959334" />
     <state x="740" y="235" key="FileChooserDialogImpl" timestamp="1628062447847">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -603,14 +384,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" width="1284" height="711" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1628067882150" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1628068008753">
+    <state x="806" y="432" key="VCS.ChangelistChooser" timestamp="1628068314805">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1628068008753" />
+    <state x="806" y="432" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1628068314805" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1628068367408">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1628068367408" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1628040513662">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1628040513662" />
+    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1628068151562">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1628068151562" />
     <state x="502" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1628040776245">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
